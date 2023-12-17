@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Porsche Brazil - Dr. Ing. h.c. F. Porsche AG</title>
+    <link href="css/pagina1.css" rel="stylesheet" />
+    <style>
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        overflow: hidden; /* Evita rolar a página horizontalmente */
+      }
+
+      .container {
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+      }
+
+      .logo {
+        position: absolute;
+        top: 10px;
+        left: 50%;
+        z-index: 1;
+      }
+
+      .video-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+
+      .video2 {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">
+        <img
+          src="https://cdn.ui.porsche.com/porsche-design-system/meta-icons/favicon-32x32.5638ae59e85b68cac7febfffe555dbe7.png"
+        />
+      </div>
+      <div class="video-container">
+        <video class="video2" muted loop autoplay>
+          <source src="imagem/taycanvdd.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </div>
+    <div class="logo2">
+      <h1><strong>PORSCHE</strong></h1>
+    </div>
+    <section>
+      <ul>
+        <li><img src="imagem/download.jpg" /></li>
+      </ul>
+    </section>
+  </body>
+</html>

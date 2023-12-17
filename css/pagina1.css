@@ -1,0 +1,13 @@
+@media (min-width: 769px) {
+  .logo {
+    display: none;
+  }
+  .logo2 {
+    position: absolute;
+    top: 10px;
+    left: 45%;
+    z-index: 1;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+  }
+}
